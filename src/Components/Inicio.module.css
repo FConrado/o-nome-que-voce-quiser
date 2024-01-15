@@ -1,0 +1,65 @@
+.inicio{
+    display: flex;
+    gap: 5rem;
+    padding: 3.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio p{
+    font-size: 2rem;
+}
+
+.imagens img{
+    border-top-right-radius: 400px;
+    border-top-left-radius: 400px;
+}
+
+.imagem2{
+    margin: 12rem 0 0 -5rem;
+    transform: translateX(-50%);
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 43rem;
+}
+
+.busca{
+    display: flex;
+    height: 7rem;
+    font-size: 1.75rem;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    border: 1px solid var(--gray);
+    border-radius: 43px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+
+.busca button{
+    min-width: 4.625rem;
+    min-height: 4.625rem; 
+}
+
+.linha{
+    border: 1px solid var(--gray);
+}
+
+.local{
+    display: flex;
+}
+
+.local img{
+    padding: 0.5rem;
+}
+.local p:last-child{
+    color: var(--black);
+}
+
+.imagens{
+    display: grid;
+}
+

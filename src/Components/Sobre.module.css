@@ -1,0 +1,66 @@
+.sobre{
+    display: flex;
+    gap: 7rem;
+    margin: 0 7rem;
+}
+
+.imagens{
+    display: grid;
+    padding-right: 148px;
+}
+
+.imagens img{
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.imagens img:last-child{
+    margin: -65% -45% 0 0;
+    justify-self: flex-end;
+
+}
+
+.infos{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.infos > p:first-child{
+    color: var(--red);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.infos p{
+    font-size: 1.75rem;
+}
+
+.infos > p{
+    text-align: justify;
+}
+
+.infos div{
+    display: flex;
+}
+
+.infos > div{
+    gap: 4rem;
+}
+
+.dados{
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.dados p:first-child{
+    color: var(--red);
+    letter-spacing: 7px;
+    font-size: 4rem;
+}
+
+.dados p:last-child{
+    color: black;
+}
